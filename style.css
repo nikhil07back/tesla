@@ -1,0 +1,526 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+li{
+
+    list-style: none;
+}
+
+nav{
+
+   height: 70px;
+    display: flex;
+    font-size: 21px;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    color: black;
+  
+}
+
+nav img{
+
+    margin-right: 80px;
+    
+
+}
+
+ul{
+
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+   
+    
+
+}
+
+li{
+
+    margin-right: 40px;
+}
+
+
+.nav-link{
+    display: flex;
+    padding: 5px;
+    padding-left: 30px;
+}
+
+/* this is section of the background centre of the union  */
+
+
+
+section{
+
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/t1.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size: 100%;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top:100px;
+
+}
+
+.container h1{
+
+
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.container a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* button section the root of the side include od the vs code section   */
+
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.btn-sm{
+
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 4px solid;
+    border: none;
+}
+
+.btn-nm{
+
+    position: absolute;
+    top: 400px;
+    height: 40px;
+    left: 200px;
+    border: none;
+    border-radius: 10px solid;
+    width: 260px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+
+}
+
+
+/* this is second part of th img  */
+
+.img-one{
+
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/model\ Y.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.img-two{
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 850px;
+
+}
+
+.img-two h1{
+
+
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.img-two  a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.lg
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.btn-sm{
+
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 4px solid;
+    border: none;
+}
+
+.btn-nm{
+
+    position: absolute;
+    top: 140px;
+    height: 40px;
+    left: 200px;
+    border: none;
+    border-radius: 10px solid;
+    width: 260px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+
+}
+
+
+/* this is last section of the image 3rd part */
+
+
+.img-three{
+
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/model\ S.png");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.img-four{
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 1600px;
+
+}
+
+.img-four h1{
+
+
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.img-four  a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.md
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.btn-sm{
+
+    position: absolute;
+    top: 500px;
+    right: 100px;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 4px solid;
+    border: none;
+}
+
+.btn-nm{
+
+    position: absolute;
+    top: 500px;
+    height: 40px;
+    left: 200px;
+    border: none;
+    border-radius: 10px solid;
+    width: 260px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+
+}
+
+/* this is four part of the imges in the width*/
+
+
+.img-five{
+
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/testa\ home.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.img-six{
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 2360px;
+
+}
+
+.img-six h1{
+
+
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.img-six  a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.lg
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.btn-sm{
+
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 4px solid;
+    border: none;
+}
+
+.btn-nm{
+
+    position: absolute;
+    top: 400px;
+    height: 40px;
+    left: 200px;
+    border: none;
+    border-radius: 10px solid;
+    width: 260px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+
+}
+
+/* thsi is last section of the background image  */
+
+
+.img-seven{
+
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/soloar\ roof.webp");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: 100%;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.img-eight
+{
+
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 3100px;
+}
+
+.img-eight h1{
+
+
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.img-eight  a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.lg-1
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+
+.btn-sm{
+
+    position: absolute;
+    top: 500px;
+    right: 100px;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    margin-right: 10px;
+    border-radius: 4px solid;
+    border: none;
+}
+
+.btn-nm{
+
+    position: absolute;
+    top: 500px;
+    height: 40px;
+    left: 200px;
+    border: none;
+    border-radius: 10px solid;
+    width: 260px;
+    background-color: #fff;
+    color: black;
+    margin-right: 10px;
+
+}
+
+
+/* thsi is div from .acc */
+
+.acc{
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
+.acc img{
+
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    margin-left: 20px;
+ 
+}
+
+
+.btn-one
+{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    margin-left: 690px;
+
+}
+
+/* footer is the end now  */
+
+footer{
+
+    height: 100px;
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
